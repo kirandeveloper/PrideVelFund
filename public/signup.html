@@ -1,0 +1,50 @@
+<html>
+    <head>
+        <title>PrideVel Fund - Signup</title>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <script src="js/jquery.min.js"></script>
+        <script src="js/popper.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <!-- Including Custom css -->
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <!-- Blank DIV -->
+                </div>
+
+                <div class="col-md-6 main">
+                    <!-- Form Tag starts here -->
+                    <!-- Action attribute is the route on backend. Method is POST -->
+                    <form action="/sign_up" method="post">
+                        <div class="col-lg-12 text-center">
+                            <img src="img/pv-logo.png" alt="Pridevel Logo" name="logopv" id="logopv" />
+                        </div>
+                        <h1>SignUp</h1>
+                        <div>
+                            <input class="box" type="email" name="email" id="email" placeholder="Enter your e-mail " required />
+                        </div>
+                        <div>
+                            <input class="box" type="password" name="password" id="password" placeholder="Enter your password " required />
+                        </div>
+                        <div>
+                            <input class="box" type="password" name="repassword" id="repassword" placeholder="ReEnter your password " required />
+                        </div>
+                        <div>
+                            <input type="submit" id="submitDetails" name="submitDetails" value="SignUp" />
+                        </div>
+                    </form>
+                    <div class="text-center col-sm-12">
+                        <a href="login.html">SignIn</a>
+                        <a href="forgetpwd.html">Forget Password</a>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <!-- Blank DIV -->
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
